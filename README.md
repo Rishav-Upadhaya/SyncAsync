@@ -19,16 +19,14 @@ This is a Django project that demonstrates the use of synchronous and asynchrono
 
 1. **Clone the Repository**:
    ```bash
-   git clone <repository-url>
-   cd syncAsync
+   git clone https://github.com/Rishav-Upadhaya/SyncAsync.git
+   cd SyncAsync
    ```
 
 2. **Install Dependencies**:
    Create a virtual environment and install the required packages:
    ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
-   pip install -r requirements.txt
+   pip install django asyncio 
    ```
 
 3. **Apply Migrations**:
